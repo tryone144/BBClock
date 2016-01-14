@@ -1,0 +1,158 @@
+/**
+ * BBClock
+ * Simple Digital Clock
+ * 
+ * (c) 2016 Bernd Busse
+ * The MIT License (MIT)
+ **/
+@font-face {
+    font-family: "Digital-7";
+    src: url('../ttf/digital-7.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Digital-7";
+    src: url('../ttf/digital-7_mono.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+    15% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+    15% {
+        opacity: 1.0;
+    }
+    35% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+body {
+    position: absolute;
+    color: #eee;
+    background-color: #2d2d2d;
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#clock {
+    font-family: "Digital-7", Courier New, monospace;
+    margin: 0 auto;
+    padding: 30px 0;
+    cursor: default;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#date {
+    font-size: 12pt;
+    text-align: center;
+    text-shadow: 0 0 5px #00c6ff;
+    transition-duration: 200ms;
+}
+
+#time {
+    font-size: 36pt;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 0 6px #00c6ff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition-duration: 200ms;
+}
+
+#time li {
+    display: inline-block;
+}
+
+.blink {
+    -webkit-animation: blink 1s ease-in-out infinite;
+    animation: blink 1s ease-in-out infinite;
+    -webkit-animation-delay: 150ms;
+    animation-delay: 150ms;
+}
+
+@media (min-width: 320px) and (min-height: 160px) {
+    #date {
+        font-size: 18pt;
+    }
+    #time {
+        font-size: 56pt;
+    }
+}
+
+@media (min-width: 450px) and (min-height: 190px) {
+    #date {
+        font-size: 24pt;
+    }
+    #time {
+        font-size: 72pt;
+    }
+}
+
+@media (min-width: 560px) and (min-height: 240px) {
+    #date {
+        font-size: 32pt;
+    }
+    #time {
+        font-size: 96pt;
+    }
+}
+
+@media (min-width: 760px) and (min-height: 300px) {
+    #date {
+        font-size: 42pt;
+    }
+    #time {
+        font-size: 132pt;
+    }
+}
+
+@media (min-width: 1200px) and (min-height: 410px) {
+    #date {
+        font-size: 64pt;
+    }
+    #time {
+        font-size: 196pt;
+    }
+}

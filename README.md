@@ -3,7 +3,7 @@ BBClock - Simple Digital Clock
 
 ---
 
-Digital-7 Font (c) 2013 Sizenko Alexander
+### License
 
 [The MIT License (MIT)](LICENSE)  
 Copyright (c) 2015 Bernd Busse
@@ -24,3 +24,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+### Third-Party Licenses
+
+jQuery 2.2.0 (c) 2015 jQuery Foundation, The MIT License
+
+Digital-7 Font (c) 2013 Sizenko Alexander, Freeware
