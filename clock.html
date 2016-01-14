@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>BBClock</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+    <style>
+    @font-face {
+        font-family: "Digital-7";
+        src: url('digital-7.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Digital-7";
+        src: url('digital-7_mono.ttf');
+        font-weight: normal;
+        font-style: italic;
+    }
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1.0;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1.0;
+        }
+    }
+    body {
+        position: absolute;
+        color: #eee;
+        background-color: #2d2d2d;
+        display: table;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        bottom: 0;
+    }
+    #clock {
+        font-family: "Digital-7", Courier New, monospace;
+        /*width: 100%;*/
+        margin: 0 auto;
+        padding: 30px 0;
+        cursor: default;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }   
+    #date {
+        font-size: 36pt;
+        text-align: center;
+        text-shadow: 0 0 5px #00c6ff;
+    }
+    #time {
+        font-size: 96pt;
+        font-style: italic;
+        text-align: center;
+        text-shadow: 0 0 6px #00c6ff;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .colon {
+        /*-webkit-animation: blink 1s ease-in-out infinite;*/
+    }
+    </style>
+</head>
+<body>
+    <div id="clock">
+        <div id="date">Donnerstag, 01 Januar 1970</div>
+        <div id="time">
+            <span id="hour">00</span>
+            <span class="colon">:</span>
+            <span id="minute">00</span>
+            <span class="colon">:</span>
+            <span id="second">00</span>
+        </ul>
+    </div>
+</body>
+</html>
