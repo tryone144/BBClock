@@ -6,15 +6,15 @@
  * The MIT License (MIT)
  **/
 var date, hour, minute, second;
-var month = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
-             "August", "September", "Oktober", "November", "Dezember"];
-var day = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag",
-           "Freitag", "Samstag"];
+var month = ["January", "February", "March", "April", "May", "June", "July",
+             "August", "September", "October", "November", "December"];
+var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
+           "Friday", "Saturday"];
 
 function renderDate() {
     var d = new Date();
-    date.html(day[d.getDay()] + ", " + d.getDate() + ". " + month[d.getMonth()]
-              + " " + d.getFullYear());
+    date.html(day[d.getDay()] + ", " + month[d.getMonth()] + " " + d.getDate()
+              + ",  " + d.getFullYear());
 
     var s = d.getSeconds();
     var m = d.getMinutes();
