@@ -6,7 +6,7 @@ BBClock - Simple Digital Clock
 ### License
 
 [The MIT License (MIT)](LICENSE)  
-Copyright (c) 2015 Bernd Busse
+Copyright (c) 2016 Bernd Busse
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -28,5 +28,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ### Third-Party Licenses
 
 jQuery 2.2.0 (c) 2015 jQuery Foundation, The MIT License
+
+Date Format 1.2.3 (c) 2009 Steven Levithan, The MIT License
 
 Digital-7 Font (c) 2013 Sizenko Alexander, Freeware

@@ -105,11 +105,10 @@ body {
     display: inline-block;
 }
 
-.blink {
-    -webkit-animation: blink 1s ease-in-out infinite;
-    animation: blink 1s ease-in-out infinite;
-    -webkit-animation-delay: 150ms;
-    animation-delay: 150ms;
+#period {
+    font-size: 50%;
+    margin-left: 0.5em;
+    vertical-align: top;
 }
 
 @media (min-width: 320px) and (min-height: 160px) {

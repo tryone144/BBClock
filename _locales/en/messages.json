@@ -2,5 +2,33 @@
     "appName": {
         "message": "BBClock",
         "description": "ChromeApp Name"
+    },
+    "description": {
+        "message": "Plain Digital Clock",
+        "description": "ChromeApp Description"
+    },
+    "dateFormat": {
+        "message": "dddd, mmmm d, yyyy",
+        "description": "Date Format String"
+    },
+    "timeFormat": {
+        "message": "h:MM:ss:TT",
+        "description": "Time Format String"
+    },
+    "monthsShort": {
+        "message": "Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec",
+        "description": "Short Month Names"
+    },
+    "monthsLong": {
+        "message": "January;February;March;April;May;June;July;August;September;October;November;December",
+        "description": "Long Month Names"
+    },
+    "daysShort": {
+        "message": "Sun;Mon;Tue;Wed;Thu;Fri;Sat",
+        "description": "Short Weekday Names"
+    },
+    "daysLong": {
+        "message": "Sunday;Monday;Tuesday;Wednesday;Thursday;Friday;Saturday",
+        "description": "Long Weekday Names"
     }
 }
